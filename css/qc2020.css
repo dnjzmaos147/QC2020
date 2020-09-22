@@ -1,0 +1,308 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,200italic);
+.qc-bora {
+  background: #6e41c1;
+  -webkit-box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
+          box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
+  color: #f3f2f2;
+  padding: 20px;
+  padding-left: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-style: italic;
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+}
+
+.qc-bora p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80%;
+}
+
+.qc-bora :before {
+  font-family: Georgia;
+  content: "“";
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+
+.qc-bora :after {
+  font-family: Georgia;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 20em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+
+.qc-parang {
+  background: #0078ff;
+  -webkit-box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
+          box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
+  color: #f3f2f2;
+  padding: 20px;
+  padding-left: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-style: italic;
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+}
+
+.qc-parang p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80%;
+}
+
+.qc-parang :before {
+  font-family: Georgia;
+  content: "“";
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+
+.qc-parang :after {
+  font-family: Georgia;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 20em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+
+.qc-bbargang {
+  background: #f61e32;
+  -webkit-box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
+          box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
+  color: #f3f2f2;
+  padding: 20px;
+  padding-left: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-style: italic;
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+}
+
+.qc-bbargang p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80%;
+}
+
+.qc-bbargang :before {
+  font-family: Georgia;
+  content: "“";
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+
+.qc-bbargang :after {
+  font-family: Georgia;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 20em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+
+.qc-hwang {
+  background: #f9a825;
+  -webkit-box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
+          box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
+  color: #f3f2f2;
+  padding: 20px;
+  padding-left: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-style: italic;
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+}
+
+.qc-hwang p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80%;
+}
+
+.qc-hwang :before {
+  font-family: Georgia;
+  content: "“";
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+
+.qc-hwang :after {
+  font-family: Georgia;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 20em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+
+.qc-chorok {
+  background: #00970b;
+  -webkit-box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
+          box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
+  color: #f3f2f2;
+  padding: 20px;
+  padding-left: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-style: italic;
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+}
+
+.qc-chorok p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80%;
+}
+
+.qc-chorok :before {
+  font-family: Georgia;
+  content: "“";
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+
+.qc-chorok :after {
+  font-family: Georgia;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 20em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+
+.qc-hayang {
+  background: #f3f2f2;
+  -webkit-box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
+          box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
+  color: #0c0c0c;
+  padding: 20px;
+  padding-left: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-style: italic;
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+}
+
+.qc-hayang p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80%;
+}
+
+.qc-hayang :before {
+  font-family: Georgia;
+  content: "“";
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 5em;
+  color: #343a40;
+  font-weight: normal;
+}
+
+.qc-hayang :after {
+  font-family: Georgia;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 20em;
+  color: #343a40;
+  font-weight: normal;
+}
+/*# sourceMappingURL=qc2020.css.map */

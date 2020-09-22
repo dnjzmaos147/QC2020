@@ -1,0 +1,18 @@
+.qc-bora{
+    @include card($bora, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}
+.qc-parang{
+    @include card($parang, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}
+.qc-bbargang{
+    @include card($bbargang, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}
+.qc-hwang{
+    @include card($hwang, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}
+.qc-chorok{
+    @include card($chorok, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}
+.qc-hayang{
+    @include card($hayang, $font-color-black, $box-shadow, $font-weight, $p-font-size, $p-max-width, $udoom, $quote-after-content, $quote-before-content, $bottom-font-size)
+}
