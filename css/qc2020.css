@@ -1,5 +1,29 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Black+And+White+Picture&family=Kirang+Haerang&family=Nanum+Pen+Script&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,200italic);
+.qfont {
+  font-family: "Nanum Pen Script", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.65rem;
+  color: #f3f2f2;
+  line-height: 1.5;
+  margin-left: 17px;
+  max-width: 80%;
+}
+
+.qfont-dark {
+  font-family: "Nanum Pen Script", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.65rem;
+  color: #0c0c0c;
+  line-height: 1.5;
+  margin-left: 17px;
+  max-width: 80%;
+}
+
 .qc-bora {
   background: #6e41c1;
   -webkit-box-shadow: 0 1px 2px rgba(34, 34, 34, 0.24), 0 2px 4px rgba(34, 34, 34, 0.24);
@@ -19,20 +43,11 @@
   font-weight: 200;
 }
 
-.qc-bora p {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 1.5;
-  margin: 0;
-  max-width: 80%;
-}
-
 .qc-bora :before {
   font-family: Georgia;
   content: "“";
   position: absolute;
-  top: 0px;
+  top: -30px;
   left: 10px;
   font-size: 5em;
   color: rgba(238, 238, 238, 0.8);
@@ -43,7 +58,7 @@
   font-family: Georgia;
   content: "”";
   position: absolute;
-  bottom: -110px;
+  bottom: -150px;
   line-height: 100px;
   right: -32px;
   font-size: 20em;
@@ -70,20 +85,11 @@
   font-weight: 200;
 }
 
-.qc-parang p {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 1.5;
-  margin: 0;
-  max-width: 80%;
-}
-
 .qc-parang :before {
   font-family: Georgia;
   content: "“";
   position: absolute;
-  top: 0px;
+  top: -30px;
   left: 10px;
   font-size: 5em;
   color: rgba(238, 238, 238, 0.8);
@@ -94,7 +100,7 @@
   font-family: Georgia;
   content: "”";
   position: absolute;
-  bottom: -110px;
+  bottom: -150px;
   line-height: 100px;
   right: -32px;
   font-size: 20em;
@@ -121,20 +127,11 @@
   font-weight: 200;
 }
 
-.qc-bbargang p {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 1.5;
-  margin: 0;
-  max-width: 80%;
-}
-
 .qc-bbargang :before {
   font-family: Georgia;
   content: "“";
   position: absolute;
-  top: 0px;
+  top: -30px;
   left: 10px;
   font-size: 5em;
   color: rgba(238, 238, 238, 0.8);
@@ -145,7 +142,7 @@
   font-family: Georgia;
   content: "”";
   position: absolute;
-  bottom: -110px;
+  bottom: -150px;
   line-height: 100px;
   right: -32px;
   font-size: 20em;
@@ -172,20 +169,11 @@
   font-weight: 200;
 }
 
-.qc-hwang p {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 1.5;
-  margin: 0;
-  max-width: 80%;
-}
-
 .qc-hwang :before {
   font-family: Georgia;
   content: "“";
   position: absolute;
-  top: 0px;
+  top: -30px;
   left: 10px;
   font-size: 5em;
   color: rgba(238, 238, 238, 0.8);
@@ -196,7 +184,7 @@
   font-family: Georgia;
   content: "”";
   position: absolute;
-  bottom: -110px;
+  bottom: -150px;
   line-height: 100px;
   right: -32px;
   font-size: 20em;
@@ -223,20 +211,11 @@
   font-weight: 200;
 }
 
-.qc-chorok p {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 1.5;
-  margin: 0;
-  max-width: 80%;
-}
-
 .qc-chorok :before {
   font-family: Georgia;
   content: "“";
   position: absolute;
-  top: 0px;
+  top: -30px;
   left: 10px;
   font-size: 5em;
   color: rgba(238, 238, 238, 0.8);
@@ -247,7 +226,7 @@
   font-family: Georgia;
   content: "”";
   position: absolute;
-  bottom: -110px;
+  bottom: -150px;
   line-height: 100px;
   right: -32px;
   font-size: 20em;
@@ -274,20 +253,11 @@
   font-weight: 200;
 }
 
-.qc-hayang p {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 1.5;
-  margin: 0;
-  max-width: 80%;
-}
-
 .qc-hayang :before {
   font-family: Georgia;
   content: "“";
   position: absolute;
-  top: 0px;
+  top: -30px;
   left: 10px;
   font-size: 5em;
   color: #343a40;
@@ -298,7 +268,7 @@
   font-family: Georgia;
   content: "”";
   position: absolute;
-  bottom: -110px;
+  bottom: -150px;
   line-height: 100px;
   right: -32px;
   font-size: 20em;

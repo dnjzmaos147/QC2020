@@ -1,3 +1,13 @@
+.qfont{
+    @include qfont($root-font-family, $root-font-style,  $root-font-weight, $root-font-size, $font-color-white)
+}
+
+.qfont-dark{
+    @include qfont($root-font-family, $root-font-style,  $root-font-weight, $root-font-size, $font-color-black)
+}
+
+
+
 .qc-bora{
     @include card($bora, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
 }

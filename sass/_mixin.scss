@@ -15,19 +15,12 @@
   display: block;
   font-weight: $font-weight;
 
-  p {
-      font-style: normal;
-      font-weight: bold;
-      font-size: $p-font-size;
-      line-height: 1.5;
-      margin: 0;
-      max-width: $p-max-width;
-  }
+
   :before {
       font-family: Georgia;
       content: $quote-before-content;
       position: absolute;
-      top: 0px;
+      top: -30px;
       left: 10px;
       font-size: 5em;
       color: $quote-color;
@@ -37,7 +30,7 @@
       font-family: Georgia;
       content: $quote-after-content;
       position: absolute;
-      bottom: -110px;
+      bottom: -150px;
       line-height: 100px;
       right: -32px;
       font-size: 20em;
@@ -45,3 +38,16 @@
       font-weight: normal;
   }
 }
+
+// 폰트
+@mixin qfont($qfont-font-family, $qfont-font-style, $qfont-font-weight, $qfont-font-size, $qfont-font-color) {
+  font-family: $qfont-font-family;
+  font-style: $qfont-font-style;
+  font-weight: $qfont-font-weight;
+  font-size: $qfont-font-size;
+  color: $qfont-font-color;
+  line-height: 1.5;
+  margin-left: 17px;
+  max-width: 80%;
+}
+
